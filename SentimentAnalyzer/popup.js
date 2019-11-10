@@ -18,7 +18,7 @@ app.controller("popupController", ['$scope', '$http', function($scope, $http){
    		}
    		$scope.selectedText = selectedText;
 		$http({
-          url: 'https://language.googleapis.com/v1/documents:analyzeSentiment?key=AIzaSyA-YMkmJVSpfBtjFooIQ_ZT8RKCWvloFhI',
+          url: 'https://language.googleapis.com/v1/documents:analyzeSentiment?key=API_KEY',
           method: "POST",
           data: {
             "encodingType": "UTF8",
